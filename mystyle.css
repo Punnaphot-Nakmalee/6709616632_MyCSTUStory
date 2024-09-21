@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+body {
+    background-color: rgb(179, 177, 177);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.oval-border {
+    width: 600px; 
+    height: 90px; 
+    border: 4px solid rgb(17, 4, 4); 
+    border-radius: 60% 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(17, 4, 4); ;
+    transform: rotate(-4.7deg);
+    color: rgb(85, 11, 11);
+}
+.container {
+    display: flex;
+    justify-content: center; 
+    background-image: url(./resources/wall.png);
+    height: 140px; 
+    width: 100%;
+}
+#text {
+    letter-spacing: 5px ;
+    transform: rotate(3.7deg);
+    font-family: Tangerine;
+    font-size: 63px;
+    font-style: italic;
+    margin-top: 13.8px;
+    white-space: nowrap;
+}
+img {
+    filter: grayscale(50%);
+    object-position: 10px;
+}
+h3:hover {
+    color: rgb(165, 0, 0);
+}
+h1 {
+    background-image: url(./resources/name.png);
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: repeat; 
+    height: 105px; 
+    margin: 0;
+    padding: 10px;
+}
+h1:hover {
+    background-image: url(./resources/namer.png);
+}
+.video-container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(17, 2, 2);
+}
+#First {
+    text-align: center;
+    white-space: nowrap;
+    background-color: rgb(65, 47, 47);
+    margin: 0px;
+    padding: 10px;
+    color:rgb(204, 204, 204);
+    font-size: 20px;
+}
+#batzz {
+    height: 240px;
+}
+#pun {
+    opacity: 50%;
+}
+#facts {
+    margin: 10px;
+    text-wrap: nowrap;
+    text-align: center;
+    color: rgb(53, 32, 32);
+    font-size: 18px;
+}
+#HIM {
+    height: 240px;
+    filter: grayscale(0%);
+}
+#HIM:hover {
+    content: url(./resources/HIMR.png);
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 40px rgb(0, 0, 0));
+}
+footer {
+    background-color: rgb(65, 47, 47); 
+    height: 60px; 
+    width: 100%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-position:inside; 
+}
+#backgroundW {
+    border-left: 80px solid rgb(85, 11, 11); /* Left border with your chosen color */
+    border-right: 80px solid  rgb(85, 11, 11);
+    border-top: 0.1px solid  rgb(85, 11, 11);
+    border-bottom: 0.1px solid rgb(85, 11, 11);
+    margin: 0;
+    padding: 0;
+}
