@@ -19,6 +19,9 @@ body {
 }
 .container {
     display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
     justify-content: center; 
     background-image: url(./resources/wall.png);
     height: 140px; 
@@ -103,8 +106,31 @@ ul {
 #backgroundW {
     border-left: 80px solid rgb(85, 11, 11); /* Left border with your chosen color */
     border-right: 80px solid  rgb(85, 11, 11);
-    border-top: 0.1px solid  rgb(85, 11, 11);
+    border-top: 0.01px solid  rgb(85, 11, 11);
     border-bottom: 0.1px solid rgb(85, 11, 11);
     margin: 0;
     padding: 0;
+}
+#navi {
+    background-color: rgb(92, 69, 69);
+    height: 45px;
+    width: 100%;
+    padding: 0px;
+}
+#navul {
+    list-style: none;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    padding-top: 12px;
+    margin-left: 80px;
+    position: relative;
+    left: -30px; 
+}
+nav a {
+    color: antiquewhite;
+    text-decoration:none;
+    text-transform: uppercase;
+
 }
