@@ -126,11 +126,13 @@ nav li {
     padding-top: 12px;
     margin-left: 80px;
     position: relative;
-    left: -30px; 
+    left: -42px; 
 }
 nav a {
-    color: antiquewhite;
+    color: rgb(204, 204, 204);
     text-decoration:none;
     text-transform: uppercase;
-
+}
+nav a:hover {
+    color: rgb(29, 29, 29);
 }
