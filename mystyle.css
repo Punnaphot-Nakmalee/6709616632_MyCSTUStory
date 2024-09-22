@@ -120,6 +120,7 @@ ul {
 #navul {
     list-style: none;
     text-align: center;
+    white-space: nowrap;
 }
 nav li {
     display: inline-block;
