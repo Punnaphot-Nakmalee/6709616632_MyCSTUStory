@@ -95,8 +95,9 @@ h1:hover {
 }
 footer {
     background-color: rgb(65, 47, 47); 
-    height: 60px; 
+    height: 40px; 
     width: 100%;
+    clear: both;
 }
 ul {
     margin: 0;
@@ -140,7 +141,7 @@ nav a:hover {
 #Future {
     text-align: center;
     text-transform: uppercase;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 10px;
     font-size: 24px;
     background-color: rgb(151, 126, 126);
@@ -149,13 +150,13 @@ nav a:hover {
     text-align: center;
     text-transform: uppercase;
     margin-top: 50px;
-    font-size: 34px;
+    font-size: 40px;
 }
 #Future3 {
     text-align: center;
     text-transform: uppercase;
     margin-top: 50px;
-    font-size: 54px;
+    font-size: 64px;
     filter: drop-shadow(0 0 5px rgb(253, 249, 249));
     text-shadow: 0 0 2px white;
     padding-left: 70PX;
@@ -167,6 +168,7 @@ nav a:hover {
     padding-right: 1%;
     padding-left: 3%;
     white-space: nowrap;
+    font-size: 20px;
 }
 #paint {
     float: left;
@@ -175,13 +177,37 @@ nav a:hover {
     padding-left: 1%;
     padding-left: 3%;
     white-space: nowrap;
+    font-size: 20px;
 }
 #hustle {
     opacity: 50%;
 }
 #job p + p  {
-    margin-top: -10px; 
+    margin-top: -15px; 
 }
 #paint p + p {
-    margin-top: -10px; 
+    margin-top: -15px; 
+}
+#yesyes {
+    text-align: center;
+    font-size: 85px;
+    clear: both;
+    padding-top: 50px;
+
+    font-family: Tangerine;
+    filter: drop-shadow(0 0 5px rgb(253, 249, 249));
+}
+#float {
+    padding-top: 30px;
+}
+#wowie {
+    text-align: center;
+}
+#jheader {
+    text-align: center;
+    background-color: rgb(151, 126, 126);
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 34px;
 }
