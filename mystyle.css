@@ -210,4 +210,45 @@ nav a:hover {
     padding-top: 15px;
     padding-bottom: 10px;
     font-size: 34px;
+    
+}
+#jbelow {
+    text-align: center;
+    background-color: rgb(39, 25, 25);
+    margin: 0Px;
+    color: aliceblue;
+    height: 40px;
+    padding-top: 10px;
+    white-space: nowrap;
+    font-family: tangerine;
+    font-size: 30px;
+}
+#text1 {
+    float: left;
+    width: 50%;
+    padding-top: 9%;
+    padding-left: 2%;
+    font-size: 2.5vw;
+    text-align: center;
+}
+#text2 {
+    float: right;
+    width: 50%;
+    padding-top: 9%;
+    padding-left: 2%;
+    font-size: 2.5vw;
+    text-align: center;
+}
+#text3 {
+    float: left;
+    width: 50%;
+    padding-top: 9%;
+    padding-left: 2%;
+    font-size: 2.5vw;
+    text-align: center;
+}
+#futurepic {
+    padding-right: 1%;
+    
+    
 }
